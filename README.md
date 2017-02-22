@@ -1,4 +1,5 @@
 # Ansible Role: SonarQube By Docker
+[![Build Status](https://travis-ci.org/gikoluo/ansible-role-sonar-docker.svg?branch=master)](https://travis-ci.org/gikoluo/ansible-role-sonar-docker)
 
 Installs Sonar in docker container
 
