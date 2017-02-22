@@ -1,0 +1,23 @@
+---
+# dependencies:
+#   - geerlingguy.mysql
+
+galaxy_info:
+  author: gikoluo
+  description: SonarQube By Docker for Linux
+  company: "Jfpal.com"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.8
+  platforms:
+    - name: EL
+      versions:
+      - all
+    - name: Debian
+      versions:
+      - all
+    - name: Ubuntu
+      versions:
+      - all
+  galaxy_tags:
+    - development
+    - docker
