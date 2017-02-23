@@ -4,4 +4,4 @@
 
   roles:
     - gikoluo.docker
-    - ansible-role-gitlab
+    - ansible-role-sonar-docker
