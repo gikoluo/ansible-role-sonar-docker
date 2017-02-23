@@ -3,17 +3,12 @@ language: python
 python: "2.7"
 
 env:
-  # Researching why this doesn't work. It works tested off of Travis-CI
-  # - distribution: centos
-  #   version: 6
-  #   init: /sbin/init
-  #   run_opts: ""
   - distribution: centos
     version: 7
     init: /usr/lib/systemd/systemd
     run_opts: "--privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro"
     SITE: test.yml
-    
+
   - distribution: ubuntu
     version: 16.04
     init: /sbin/init
