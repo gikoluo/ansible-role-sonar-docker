@@ -1,5 +1,9 @@
 ---
 
+- name: Ensure ansible mysql_db can be used
+  pip:
+    name: docker-py
+    state: present
 
 
 - name: start up mysql container
